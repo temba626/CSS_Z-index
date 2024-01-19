@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+}
+
+.card1 {
+    background-color: lightblue;
+    top: 50px;
+    left: 50px;
+    z-index: 2; /* Be on top! */
+}
+
+.card2 {
+    background-color: lightcoral;
+    top: 80px;
+    left: 80px;
+    z-index: 1; /* Stay underneath! */
+}
